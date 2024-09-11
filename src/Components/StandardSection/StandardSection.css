@@ -1,1 +1,22 @@
-/*# sourceMappingURL=StandardSection.css.map */
+.standard-section .first-side,
+.standard-section .second-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex: 1;
+  position: relative;
+  min-height: 700px;
+}
+.standard-section .first-side > img,
+.standard-section .second-side > img {
+  max-width: 670px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.standard-section .first-side {
+  text-align: left;
+}
+.standard-section .second-side {
+  text-align: right;
+}/*# sourceMappingURL=StandardSection.css.map */

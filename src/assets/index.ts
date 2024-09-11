@@ -14,6 +14,7 @@ import robotHand from "./robotHand.png"
 import send from "./Send.png"
 import shield from "./Shield Done.png"
 import star from "./Star.png"
+import percentage from "./percentage.png"
 
 const brands = {
   airBnb,
@@ -36,6 +37,7 @@ const icons = {
   shield,
   star,
   arrow,
+  percentage,
 }
 
 export { brands, features, laurels, icons, logo, brackets }
