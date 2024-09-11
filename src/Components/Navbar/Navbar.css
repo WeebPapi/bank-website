@@ -1,1 +1,60 @@
-/*# sourceMappingURL=Navbar.css.map */
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+.navbar-brand img {
+  width: 150px;
+}
+
+a.nav-link p {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.3s ease-in;
+  font-size: 16px;
+}
+a.nav-link p:hover {
+  color: white;
+}
+
+.nav-toggle {
+  z-index: 30;
+}
+.nav-toggle svg {
+  stroke: white;
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+div.navbar-nav {
+  width: 35%;
+}
+
+div.container-md {
+  position: relative;
+}
+
+div.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+@media screen and (max-width: 768px) {
+  div.desktop-menu {
+    display: none;
+  }
+  div.mobile-menu-overlay,
+  div.nav-toggle {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  div.mobile-menu {
+    display: flex !important;
+    height: 70%;
+  }
+  div.mobile-menu a.nav-link p {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

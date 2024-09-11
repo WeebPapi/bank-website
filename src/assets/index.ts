@@ -1,4 +1,5 @@
 import airBnb from "./airBnb.png"
+import arrow from "./arrow.png"
 import billingFeature from "./billingFeature.png"
 import binance from "./binance.png"
 import brackets from "./brackets.png"
@@ -34,6 +35,7 @@ const icons = {
   send,
   shield,
   star,
+  arrow,
 }
 
 export { brands, features, laurels, icons, logo, brackets }
