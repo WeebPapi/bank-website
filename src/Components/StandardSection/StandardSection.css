@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  flex: 1;
+  width: 50%;
   position: relative;
   min-height: 700px;
 }
@@ -19,4 +19,16 @@
 }
 .standard-section .second-side {
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .standard-section .first-side,
+  .standard-section .second-side {
+    width: 100%;
+    min-height: 550px;
+  }
+  .standard-section .first-side > img,
+  .standard-section .second-side > img {
+    max-width: 350px;
+  }
 }/*# sourceMappingURL=StandardSection.css.map */

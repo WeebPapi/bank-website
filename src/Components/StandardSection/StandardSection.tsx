@@ -5,8 +5,8 @@ import "./StandardSection.css"
 interface StandardSectionProps {
   name: string
   flexDirection: "row" | "column"
-  firstSide: ReactNode
-  secondSide: ReactNode
+  firstSide?: ReactNode
+  secondSide?: ReactNode
 }
 
 const StandardSection: React.FC<StandardSectionProps> = ({
@@ -20,8 +20,8 @@ const StandardSection: React.FC<StandardSectionProps> = ({
       id={name}
       className={`container-md standard-section d-flex flex-${flexDirection} justify-content-start align-items-center`}
     >
-      <div className="first-side">{firstSide}</div>
-      <div className="second-side">{secondSide}</div>
+      <div className="first-side">{firstSide ? firstSide : null}</div>
+      <div className="second-side">{secondSide ? secondSide : null}</div>
     </section>
   )
 }

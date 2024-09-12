@@ -2,16 +2,18 @@ import React from "react"
 import { StandardSection } from "../../Components"
 import { icons, features } from "../../assets"
 import "./Header.css"
+import { useWindowSize } from "../../hooks/useWindowSize"
 
 const Header: React.FC = () => {
+  const { width } = useWindowSize()
   return (
     <>
       <StandardSection
-        flexDirection="row"
+        flexDirection={width <= 768 ? "column" : "row"}
         name="header"
         firstSide={
           <>
-            <div className="sale-badge d-flex align-items-center">
+            <div className={`sale-badge d-flex align-items-center`}>
               <span>
                 <img src={icons.percentage} alt="percentage-symbol" />
               </span>
@@ -47,7 +49,11 @@ const Header: React.FC = () => {
           <img
             src={features.robotHand}
             alt="robot-hand-visual"
-            style={{ position: "absolute", right: "-40%", top: 0 }}
+            style={{
+              position: "absolute",
+              right: width <= 768 ? 0 : "-40%",
+              top: width <= 768 ? "25%" : 0,
+            }}
           />
         }
       />
