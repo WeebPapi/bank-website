@@ -1,1 +1,48 @@
-/*# sourceMappingURL=Stats.css.map */
+.text-gradient {
+  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+.stats .stat {
+  width: 30%;
+  height: 60px;
+}
+.stats .stat p {
+  margin: 0;
+}
+.stats .stat .stat-body {
+  font-size: 41px;
+  font-weight: 600;
+  color: white;
+}
+.stats .stat .stat-caption {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.stats .stat .division-bar {
+  margin-top: 5px;
+  height: 14px;
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .stats {
+    flex-direction: column !important;
+    height: 350px;
+  }
+  .stats .stat {
+    width: 100%;
+    max-width: 350px;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 1rem 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  }
+  .stats .stat .division-bar {
+    display: none;
+  }
+}/*# sourceMappingURL=Stats.css.map */

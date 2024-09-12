@@ -1,14 +1,21 @@
 .text-gradient {
-  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
   color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
 
 /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
 #header {
-  height: 100%;
-  max-height: 800px;
+  min-height: 800px;
 }
 
 .sale-badge {
@@ -35,7 +42,15 @@
   font-size: 72px;
 }
 .header-heading .gs-circular-border {
-  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
   border-radius: 100%;
   width: 130px;
   height: 130px;
@@ -64,7 +79,15 @@
   transition: 0.4s ease-in-out;
 }
 .header-heading .gs-circular-border .gs-circular:hover {
-  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
 }
 .header-heading .gs-circular-border .gs-circular:hover p {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -113,4 +136,4 @@
     font-size: 16px;
     margin: 1.5rem 0 0 0;
   }
-}/*# sourceMappingURL=Header.css.map */
+} /*# sourceMappingURL=Header.css.map */

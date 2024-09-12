@@ -52,7 +52,7 @@ const Header: React.FC = () => {
             style={{
               position: "absolute",
               right: width <= 768 ? 0 : "-40%",
-              top: width <= 768 ? "25%" : 0,
+              top: width <= 768 ? "10%" : 0,
             }}
           />
         }
