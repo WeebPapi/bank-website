@@ -5,6 +5,13 @@
           background-clip: text;
 }
 
+.alt-text-gradient {
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
 /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
 .stats .stat {
   width: 30%;

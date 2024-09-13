@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar navbar-expand-md">
-      <div className="container-md">
+      <div className="container-md nav-container">
         <a className="navbar-brand">
           <img src={logo} alt="logo" />
         </a>

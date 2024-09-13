@@ -3,7 +3,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./StandardSection.css"
 
 interface StandardSectionProps {
-  name: string
+  name?: string
   flexDirection: "row" | "column"
   firstSide?: ReactNode
   secondSide?: ReactNode
@@ -17,7 +17,7 @@ const StandardSection: React.FC<StandardSectionProps> = ({
 }) => {
   return (
     <section
-      id={name}
+      id={name ? name : ""}
       className={`container-md standard-section d-flex flex-${flexDirection} justify-content-start align-items-center`}
     >
       <div className="first-side">{firstSide ? firstSide : null}</div>

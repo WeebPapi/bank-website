@@ -21,7 +21,7 @@ const Header: React.FC = () => {
             </div>
             <div className="header-heading">
               <h1>
-                The Next <span className="text-gradient">Generation </span>
+                The Next <span className="alt-text-gradient">Generation </span>
                 Payment Method.
               </h1>
               <div className="gs-circular-border">
