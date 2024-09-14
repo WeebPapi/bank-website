@@ -3,6 +3,12 @@ import { StandardSection } from "../../Components"
 import { icons, features } from "../../assets"
 import "./Header.css"
 import { useWindowSize } from "../../hooks/useWindowSize"
+import { motion } from "framer-motion"
+
+export const revealVariants = {
+  hidden: { opacity: 0, x: 40 },
+  revealed: { opacity: 1, x: 0 },
+}
 
 const Header: React.FC = () => {
   const { width } = useWindowSize()
@@ -20,10 +26,26 @@ const Header: React.FC = () => {
               <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
             </div>
             <div className="header-heading">
-              <h1>
-                The Next <span className="alt-text-gradient">Generation </span>
+              <motion.h1
+                variants={revealVariants}
+                initial="hidden"
+                whileInView="revealed"
+                transition={{ type: "spring", duration: 0.8 }}
+                viewport={{ once: true }}
+              >
+                The Next{" "}
+                <motion.span
+                  variants={revealVariants}
+                  initial="hidden"
+                  whileInView="revealed"
+                  transition={{ type: "spring", duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="alt-text-gradient"
+                >
+                  Generation{" "}
+                </motion.span>
                 Payment Method.
-              </h1>
+              </motion.h1>
               <div className="gs-circular-border">
                 <div className="gs-circular">
                   <p className="text-gradient">

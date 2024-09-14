@@ -97,7 +97,8 @@
     min-height: 1100px;
   }
   .standard-section .sale-badge {
-    max-width: 360px;
+    max-width: 350px;
+    align-self: flex-start !important;
   }
   .standard-section .sale-badge p {
     font-size: 12px;
@@ -121,7 +122,7 @@
     font-size: 16px;
   }
   .standard-section .header-paragraph {
-    max-width: 350px;
+    max-width: 390px;
   }
   .standard-section .header-paragraph p {
     font-size: 16px;

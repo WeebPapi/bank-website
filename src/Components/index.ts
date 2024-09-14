@@ -5,6 +5,7 @@ import Stats from "./Stats/Stats"
 import AboutBadge from "./AboutBadge/AboutBadge"
 import Laurel from "./Laurel/Laurel"
 import CTA from "./CTA/CTA"
+import ColorReveal from "./ColorReveal/ColorReveal"
 import Brands from "./Brands/Brands"
 
 export {
@@ -15,5 +16,6 @@ export {
   AboutBadge,
   Laurel,
   CTA,
+  ColorReveal,
   Brands,
 }

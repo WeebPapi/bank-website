@@ -15,12 +15,16 @@ import send from "./Send.png"
 import shield from "./Shield Done.png"
 import star from "./Star.png"
 import percentage from "./percentage.png"
+import appStore from "./appStore.png"
+import googlePlay from "./googlePlay.png"
 
 const brands = {
   airBnb,
   binance,
   coinbase,
   dropbox,
+  appStore,
+  googlePlay,
 }
 const features = {
   dealFeature,

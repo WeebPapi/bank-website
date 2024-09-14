@@ -1,5 +1,10 @@
 import React from "react"
-import { AboutBadge, GSButton, StandardSection } from "../../Components"
+import {
+  AboutBadge,
+  GSButton,
+  StandardSection,
+  ColorReveal,
+} from "../../Components"
 import "./About.css"
 import { aboutCardsData } from "../../data"
 import { useWindowSize } from "../../hooks/useWindowSize"
@@ -12,14 +17,18 @@ const About: React.FC = () => {
         name="about"
         firstSide={
           <>
-            <h2 style={{ marginBottom: 32 }}>
-              You do the business, we’ll handle the money.
-            </h2>
-            <p style={{ marginBottom: 32 }}>
-              With the right credit card, you can improve your financial life by
-              building credit, earning rewards and saving money. But with
-              hundreds of credit cards on the market.
-            </p>
+            <ColorReveal>
+              <h2 style={{ marginBottom: 32 }}>
+                You do the business, we’ll handle the money.
+              </h2>
+            </ColorReveal>
+            <ColorReveal>
+              <p style={{ marginBottom: 32 }}>
+                With the right credit card, you can improve your financial life
+                by building credit, earning rewards and saving money. But with
+                hundreds of credit cards on the market.
+              </p>
+            </ColorReveal>
             <GSButton />
           </>
         }

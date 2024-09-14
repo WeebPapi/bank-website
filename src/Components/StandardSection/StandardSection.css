@@ -57,6 +57,7 @@
 @media screen and (max-width: 768px) {
   .standard-section .first-side,
   .standard-section .second-side {
+    align-items: center;
     width: 100%;
     min-height: 550px;
   }

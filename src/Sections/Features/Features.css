@@ -1,1 +1,14 @@
-/*# sourceMappingURL=Features.css.map */
+.billing-feature {
+  text-align: left;
+}
+.billing-feature h2,
+.billing-feature p {
+  margin-bottom: 2rem;
+  max-width: 470px;
+}
+
+.deals-feature h2,
+.deals-feature p {
+  margin-bottom: 2rem;
+  max-width: 500px;
+}/*# sourceMappingURL=Features.css.map */

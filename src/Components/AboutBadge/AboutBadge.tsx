@@ -1,5 +1,6 @@
 import React from "react"
 import "./AboutBadge.css"
+import ColorReveal from "../ColorReveal/ColorReveal"
 
 interface AboutBadgeProps {
   icon: string
@@ -14,8 +15,12 @@ const AboutBadge: React.FC<AboutBadgeProps> = ({ icon, title, desc }) => {
         <img src={icon} alt="title" />
       </div>
       <div className="about-badge-text">
-        <h3 className="about-badge-text-title">{title}</h3>
-        <p className="about-badge-text-desc">{desc}</p>
+        <ColorReveal>
+          <h3 className="about-badge-text-title">{title}</h3>
+        </ColorReveal>
+        <ColorReveal>
+          <p className="about-badge-text-desc">{desc}</p>
+        </ColorReveal>
       </div>
     </div>
   )
