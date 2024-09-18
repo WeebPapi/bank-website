@@ -54,6 +54,20 @@
   align-items: end;
 }
 
+@media screen and (max-width: 1244px) {
+  .standard-section .first-side > img,
+  .standard-section .second-side > img {
+    max-width: 450px;
+  }
+  .standard-section .first-side h2,
+  .standard-section .second-side h2 {
+    font-size: 21px;
+  }
+  .standard-section .first-side p,
+  .standard-section .second-side p {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 768px) {
   .standard-section .first-side,
   .standard-section .second-side {
@@ -64,5 +78,13 @@
   .standard-section .first-side > img,
   .standard-section .second-side > img {
     max-width: 350px;
+  }
+  .standard-section .first-side h2,
+  .standard-section .second-side h2 {
+    font-size: 40px;
+  }
+  .standard-section .first-side p,
+  .standard-section .second-side p {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=StandardSection.css.map */

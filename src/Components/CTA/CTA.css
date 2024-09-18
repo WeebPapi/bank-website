@@ -1,1 +1,18 @@
-/*# sourceMappingURL=CTA.css.map */
+#solution {
+  padding: 5rem;
+}
+#solution h1 {
+  margin-bottom: 2rem;
+}
+#solution p {
+  max-width: 445px;
+}
+
+@media screen and (max-width: 768px) {
+  #solution {
+    padding: 3rem;
+  }
+  #solution h1 {
+    font-size: 48px;
+  }
+}/*# sourceMappingURL=CTA.css.map */

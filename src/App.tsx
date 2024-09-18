@@ -1,5 +1,5 @@
 import "./App.css"
-import { Navbar, Stats } from "./Components"
+import { Brands, CTA, Navbar, Stats } from "./Components"
 import { About, Features, Footer, Header, Laurels } from "./Sections"
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <About />
       <Features />
       <Laurels />
+      <Brands />
+      <CTA />
       <Footer />
     </>
   )

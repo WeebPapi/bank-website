@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
           <a href="#features" className="nav-link">
             <p>Features</p>
           </a>
-          <a href="#cta" className="nav-link">
+          <a href="#solution" className="nav-link">
             <p>Solution</p>
           </a>
         </div>
@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
               <a href="#features" className="nav-link">
                 <p>Features</p>
               </a>
-              <a href="#cta" className="nav-link">
+              <a href="#solution" className="nav-link">
                 <p>Solution</p>
               </a>
             </div>

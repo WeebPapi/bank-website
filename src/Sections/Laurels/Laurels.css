@@ -1,1 +1,27 @@
-/*# sourceMappingURL=Laurels.css.map */
+.laurels-header {
+  width: 100%;
+}
+.laurels-header h2 {
+  max-width: 470px;
+}
+.laurels-header p {
+  max-width: 450px;
+}
+
+.laurels-container {
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .laurels-header {
+    align-items: start !important;
+  }
+  .laurels-header h2 {
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  .laurels-header p {
+    max-width: 370px;
+  }
+}/*# sourceMappingURL=Laurels.css.map */

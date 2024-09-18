@@ -1,1 +1,16 @@
-/*# sourceMappingURL=Brands.css.map */
+.brands {
+  padding: 4rem;
+}
+.brands img {
+  max-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .brands {
+    padding: 2rem;
+  }
+  .brands img {
+    max-width: 300px;
+    margin-bottom: 2.5rem;
+  }
+}/*# sourceMappingURL=Brands.css.map */

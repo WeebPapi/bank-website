@@ -1,1 +1,52 @@
-/*# sourceMappingURL=Laurel.css.map */
+.text-gradient {
+  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.alt-text-gradient {
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+.laurel-card {
+  max-width: 370px;
+  height: 395px;
+  background-color: rgb(0, 4, 15);
+  border-radius: 20px;
+}
+.laurel-card > * {
+  padding: 1rem;
+}
+.laurel-card .laurel-text,
+.laurel-card .laurel-name {
+  color: white !important;
+}
+.laurel-card > img {
+  width: 43px;
+  height: 28px;
+  margin-bottom: 2rem;
+  box-sizing: content-box;
+}
+.laurel-card:hover {
+  background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+.laurel-card .laurel-info {
+  width: 100%;
+}
+.laurel-card .laurel-info img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+}
+.laurel-card .laurel-info .laurel-name {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+.laurel-card .laurel-info .laurel-relation {
+  font-size: 16px;
+}/*# sourceMappingURL=Laurel.css.map */
