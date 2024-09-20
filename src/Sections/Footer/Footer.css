@@ -1,1 +1,99 @@
-/*# sourceMappingURL=Footer.css.map */
+.text-gradient {
+  background: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.alt-text-gradient {
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+.footer {
+  margin-top: 8rem;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+.footer .footer-top {
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgb(63, 62, 69);
+}
+.footer .footer-top .footer-logo p {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 312px;
+  font-size: 18px;
+  margin: 1rem 0 0 2rem;
+}
+.footer .footer-top .footer-lists {
+  width: 60%;
+  flex-wrap: wrap;
+}
+.footer .footer-top .footer-lists .footer-list h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.footer .footer-top .footer-lists .footer-list ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-top .footer-lists .footer-list ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5rem 0;
+}
+.footer .footer-top .footer-lists .footer-list ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.footer .footer-top .footer-lists .footer-list ul li a:hover {
+  color: cyan;
+}
+.footer .footer-bottom {
+  padding: 2rem 0;
+}
+.footer .footer-bottom p {
+  font-size: 18x;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+.footer .footer-bottom .footer-social-icons {
+  width: 160px;
+}
+.footer .footer-bottom .footer-social-icons svg {
+  width: 21px;
+  height: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 4rem;
+  }
+  .footer .footer-top .footer-logo,
+  .footer .footer-top .footer-lists {
+    width: 100%;
+  }
+  .footer .footer-top .footer-logo {
+    margin-bottom: 2rem;
+  }
+  .footer .footer-top .footer-logo img {
+    max-width: 230px;
+  }
+  .footer .footer-top .footer-logo p {
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+  }
+  .footer .footer-top .footer-lists .footer-list h3 {
+    font-size: 16px;
+  }
+  .footer .footer-top .footer-lists .footer-list ul li a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=Footer.css.map */
